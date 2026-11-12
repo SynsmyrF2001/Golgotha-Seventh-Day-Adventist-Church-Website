@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "title": "Golgota | Legliz Advantis Setyèm Jou",
+    "description": "Legliz advantis setyèm jou franko-ayisyen nan South Easton, MA. Lekòl Saba 9:30, sèvis adorasyon 11:00. Vini jan ou ye a.",
+    "pages": {
+      "visit": {
+        "title": "Planifye vizit ou",
+        "description": "Tout sa ou bezwen konnen pou premye saba ou nan Golgota : orè, timoun, lang, aksè ak plis ankò."
+      },
+      "about": {
+        "title": "Konsènan nou",
+        "description": "Istwa nou, sa non Golgota vle di, ak ekip k ap sèvi kominote nou an."
+      },
+      "beliefs": {
+        "title": "Kwayans nou",
+        "description": "Dekouvri 28 kwayans fondamantal Legliz Advantis Setyèm Jou a."
+      },
+      "heritage": {
+        "title": "Eritaj nou",
+        "description": "Lafwa advantis la jan nou viv li nan kilti franko-ayisyen : chante, pwovèb, lang ak fratènite."
+      },
+      "ministries": {
+        "title": "Ministè yo",
+        "description": "Jwenn plas ou : timoun, jèn, koral, sante, sèvis kominotè ak plis ankò."
+      },
+      "events": {
+        "title": "Evènman",
+        "description": "Kalandriye pwogram, selebrasyon ak reyinyon legliz Golgota."
+      },
+      "media": {
+        "title": "Prèch ak dirèk",
+        "description": "Swiv sèvis nou yo an dirèk epi gade dènye predikasyon yo."
+      },
+      "give": {
+        "title": "Bay",
+        "description": "Sipòte misyon an ak ladim ak ofrann ou, sou entènèt oswa an pèsòn."
+      },
+      "prayer": {
+        "title": "Demann lapriyè",
+        "description": "Pataje demann lapriyè ou. N ap priye avè w."
+      },
+      "contact": {
+        "title": "Kontak",
+        "description": "Ekri nou, rele nou oswa vin wè nou nan South Easton, MA."
+      }
+    }
+  },
+  "nav": {
+    "home": "Akèy",
+    "visit": "Planifye vizit ou",
+    "about": "Konsènan nou",
+    "beliefs": "Kwayans nou",
+    "heritage": "Eritaj nou",
+    "ministries": "Ministè yo",
+    "events": "Evènman",
+    "media": "Prèch ak dirèk",
+    "give": "Bay",
+    "prayer": "Demann lapriyè",
+    "contact": "Kontak",
+    "menu": "Meni",
+    "openMenu": "Louvri meni an",
+    "closeMenu": "Fèmen meni an",
+    "skip": "Ale nan kontni an",
+    "language": "Lang",
+    "primary": "Navigasyon prensipal",
+    "discover": "Dekouvri",
+    "grow": "Grandi",
+    "engage": "Patisipe",
+    "logoSubtitle": "Legliz advantis 7yèm jou"
+  },
+  "cta": {
+    "planVisit": "planifye vizit ou",
+    "watchLive": "gade an dirèk",
+    "aboutUs": "konsènan nou",
+    "learnMore": "aprann plis",
+    "allMinistries": "tout ministè yo",
+    "allEvents": "tout evènman yo",
+    "allSermons": "tout prèch yo",
+    "giveOnline": "bay sou entènèt",
+    "directions": "chemen an",
+    "addToCalendar": "Ajoute nan kalandriye",
+    "share": "Pataje",
+    "copied": "Lyen an kopye",
+    "call": "Rele",
+    "writeUs": "Ekri",
+    "exploreBeliefs": "dekouvri kwayans nou",
+    "exploreHeritage": "dekouvri eritaj nou",
+    "backToMinistries": "Retounen nan ministè yo",
+    "prayerRequest": "voye yon demann",
+    "contactUs": "kontakte nou"
+  },
+  "common": {
+    "toConfirm": "Pou konfime",
+    "leader": "Responsab",
+    "meets": "Reyinyon",
+    "photoSoon": "Foto ap vini",
+    "videoSoon": "Videyo a ap disponib byento",
+    "all": "Tout",
+    "upcoming": "K ap vini",
+    "past": "Ki pase",
+    "noEvents": "Pa gen evènman pou kounye a. Tounen byento !",
+    "speaker": "Predikatè",
+    "series": "Seri",
+    "passage": "Tèks",
+    "location": "Kote",
+    "keyVerse": "Vèsè kle",
+    "relatedEvents": "Evènman ki gen rapò",
+    "categories": {
+      "children": "Timoun",
+      "youth": "Jèn",
+      "adults": "Granmoun",
+      "service": "Sèvis",
+      "worship": "Lwanj"
+    },
+    "previous": "Anvan",
+    "next": "Apre"
+  },
+  "countdown": {
+    "eyebrow": "Saba a",
+    "startsIn": "Saba a ap kòmanse nan",
+    "endsIn": "Bon saba ! L ap fini nan",
+    "days": "jou",
+    "hours": "è",
+    "minutes": "minit",
+    "seconds": "segonn",
+    "sunsetFriday": "Solèy kouche vandredi : {time}",
+    "sunsetSaturday": "Saba a fini samdi : {time}",
+    "note": "Depi solèy kouche vandredi rive solèy kouche samdi, nou mete mond lan sou kote pou nou repoze nan Bondye.",
+    "verse": "« Chonje jou repo a pou ou kenbe l apa pou Bondye. » Egzòd 20:8"
+  },
+  "home": {
+    "scheduleEyebrow": "Vin jwenn nou samdi sa a",
+    "scheduleTitle": "Chak saba",
+    "missionEyebrow": "Misyon nou",
+    "ministriesEyebrow": "Ministè",
+    "ministriesTitle": "Gen plas pou chak moun",
+    "ministriesIntro": "Depi pi piti yo rive nan granmoun yo, gen yon gwoup kote ou ka grandi, sèvi epi fè zanmi.",
+    "eventsEyebrow": "Kalandriye",
+    "eventsTitle": "Talè konsa",
+    "sermonEyebrow": "Dènye mesaj",
+    "sermonTitle": "Pawòl la, chak semèn",
+    "verseEyebrow": "Vèsè semèn nan",
+    "heritageEyebrow": "Eritaj nou",
+    "heritageTitle": "Lafwa, ak aksan Ayiti",
+    "heritageText": "Chante nou, lang nou ak jan nou resevwa moun pote mak kilti franko-ayisyen an. Vin dekouvri l.",
+    "findUsEyebrow": "Jwenn nou",
+    "findUsTitle": "Vini jan ou ye a",
+    "findUsText": "Pakin gratis sou plas. Yon ekip akèy ap tann ou nan pòt la."
+  },
+  "forms": {
+    "name": "Non",
+    "email": "Imèl",
+    "phone": "Telefòn",
+    "message": "Mesaj",
+    "optional": "si ou vle",
+    "submit": "Voye",
+    "sending": "N ap voye…",
+    "success": "Mèsi ! Mesaj ou a rive. N ap reponn ou byento.",
+    "error": "Gen yon pwoblèm. Eseye ankò oswa ekri nou dirèkteman pa imèl.",
+    "mailtoNote": "Aplikasyon imèl ou a pral louvri ak mesaj ou a pare pou voye.",
+    "visitDate": "Ki saba ou panse vini ?",
+    "partySize": "Konbyen moun n ap ye ?",
+    "children": "Laj timoun ki vini avè w yo",
+    "questions": "Kesyon oswa bezwen espesyal",
+    "request": "Demann lapriyè ou",
+    "confidential": "Kenbe l sekrè (pastè a sèlman)",
+    "confidentialHelp": "Sinon, nou ka pataje demann ou an ak ekip lapriyè a, san siyati ou.",
+    "subject": "Sijè",
+    "subjects": {
+      "general": "Kesyon jeneral",
+      "visit": "Vizit mwen",
+      "studies": "Etid biblik",
+      "baptism": "Batèm",
+      "pastor": "Rankontre pastè a",
+      "other": "Lòt bagay"
+    },
+    "visitSubject": "Nouvo vizit ki planifye",
+    "prayerSubject": "Demann lapriyè",
+    "contactSubject": "Mesaj ki soti sou sit la"
+  },
+  "footer": {
+    "tagline": "Yon fanmi lafwa franko-ayisyen nan South Easton, MA.",
+    "services": "Orè",
+    "contact": "Kontak",
+    "explore": "Eksplore",
+    "follow": "Swiv nou",
+    "adventist": "Legliz advantis mondyal la",
+    "rights": "Tout dwa rezève."
+  }
+}

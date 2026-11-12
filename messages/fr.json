@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "title": "Golgotha | Église Adventiste du Septième Jour",
+    "description": "Église adventiste du septième jour franco-haïtienne à South Easton, MA. École du sabbat 9 h 30, culte 11 h. Venez tels que vous êtes.",
+    "pages": {
+      "visit": {
+        "title": "Planifiez votre visite",
+        "description": "Tout ce qu'il faut savoir pour votre premier sabbat à Golgotha : horaires, enfants, langues, accès et plus."
+      },
+      "about": {
+        "title": "À propos",
+        "description": "Notre histoire, le sens du nom Golgotha et l'équipe qui sert notre communauté."
+      },
+      "beliefs": {
+        "title": "Nos croyances",
+        "description": "Explorez les 28 croyances fondamentales de l'Église adventiste du septième jour."
+      },
+      "heritage": {
+        "title": "Notre héritage",
+        "description": "La foi adventiste vécue à travers la culture franco-haïtienne : chants, proverbes, langue et fraternité."
+      },
+      "ministries": {
+        "title": "Ministères",
+        "description": "Trouvez votre place : enfants, jeunesse, chorales, santé, service communautaire et plus."
+      },
+      "events": {
+        "title": "Événements",
+        "description": "Le calendrier des programmes, célébrations et rencontres de l'église Golgotha."
+      },
+      "media": {
+        "title": "Sermons et direct",
+        "description": "Suivez nos cultes en direct et revoyez les prédications récentes."
+      },
+      "give": {
+        "title": "Dons",
+        "description": "Soutenez la mission par vos dîmes et offrandes, en ligne ou en personne."
+      },
+      "prayer": {
+        "title": "Requêtes de prière",
+        "description": "Partagez votre requête de prière. Nous prierons avec vous."
+      },
+      "contact": {
+        "title": "Contact",
+        "description": "Écrivez-nous, appelez-nous ou passez nous voir à South Easton, MA."
+      }
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "visit": "Planifiez votre visite",
+    "about": "À propos",
+    "beliefs": "Nos croyances",
+    "heritage": "Notre héritage",
+    "ministries": "Ministères",
+    "events": "Événements",
+    "media": "Sermons et direct",
+    "give": "Dons",
+    "prayer": "Requêtes de prière",
+    "contact": "Contact",
+    "menu": "Menu",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "skip": "Aller au contenu",
+    "language": "Langue",
+    "primary": "Navigation principale",
+    "discover": "Découvrir",
+    "grow": "Grandir",
+    "engage": "S'impliquer",
+    "logoSubtitle": "Église adventiste du 7e jour"
+  },
+  "cta": {
+    "planVisit": "planifiez votre visite",
+    "watchLive": "regarder en direct",
+    "aboutUs": "à propos de nous",
+    "learnMore": "en savoir plus",
+    "allMinistries": "tous les ministères",
+    "allEvents": "tous les événements",
+    "allSermons": "tous les sermons",
+    "giveOnline": "donner en ligne",
+    "directions": "itinéraire",
+    "addToCalendar": "Ajouter au calendrier",
+    "share": "Partager",
+    "copied": "Lien copié",
+    "call": "Appeler",
+    "writeUs": "Écrire",
+    "exploreBeliefs": "explorer nos croyances",
+    "exploreHeritage": "découvrir notre héritage",
+    "backToMinistries": "Retour aux ministères",
+    "prayerRequest": "envoyer une requête",
+    "contactUs": "nous contacter"
+  },
+  "common": {
+    "toConfirm": "À confirmer",
+    "leader": "Responsable",
+    "meets": "Rencontres",
+    "photoSoon": "Photo à venir",
+    "videoSoon": "Vidéo bientôt disponible",
+    "all": "Tous",
+    "upcoming": "À venir",
+    "past": "Passés",
+    "noEvents": "Aucun événement pour le moment. Revenez bientôt !",
+    "speaker": "Orateur",
+    "series": "Série",
+    "passage": "Texte",
+    "location": "Lieu",
+    "keyVerse": "Verset clé",
+    "relatedEvents": "Événements liés",
+    "categories": {
+      "children": "Enfants",
+      "youth": "Jeunesse",
+      "adults": "Adultes",
+      "service": "Service",
+      "worship": "Louange"
+    },
+    "previous": "Précédent",
+    "next": "Suivant"
+  },
+  "countdown": {
+    "eyebrow": "Le sabbat",
+    "startsIn": "Le sabbat commence dans",
+    "endsIn": "Bon sabbat ! Il se termine dans",
+    "days": "jours",
+    "hours": "heures",
+    "minutes": "minutes",
+    "seconds": "secondes",
+    "sunsetFriday": "Coucher du soleil vendredi : {time}",
+    "sunsetSaturday": "Fin du sabbat samedi : {time}",
+    "note": "Du coucher du soleil vendredi au coucher du soleil samedi, nous mettons le monde sur pause pour nous reposer en Dieu.",
+    "verse": "« Souviens-toi du jour du repos, pour le sanctifier. » Exode 20:8"
+  },
+  "home": {
+    "scheduleEyebrow": "Rejoignez-nous ce samedi",
+    "scheduleTitle": "Chaque sabbat",
+    "missionEyebrow": "Notre mission",
+    "ministriesEyebrow": "Ministères",
+    "ministriesTitle": "Une place pour chacun",
+    "ministriesIntro": "Des plus petits aux aînés, il y a un groupe où grandir, servir et se faire des amis.",
+    "eventsEyebrow": "Calendrier",
+    "eventsTitle": "Prochainement",
+    "sermonEyebrow": "Dernier message",
+    "sermonTitle": "La Parole, chaque semaine",
+    "verseEyebrow": "Verset de la semaine",
+    "heritageEyebrow": "Notre héritage",
+    "heritageTitle": "La foi, avec l'accent d'Haïti",
+    "heritageText": "Nos chants, notre langue et notre hospitalité portent l'empreinte de la culture franco-haïtienne. Venez la découvrir.",
+    "findUsEyebrow": "Nous trouver",
+    "findUsTitle": "Venez tels que vous êtes",
+    "findUsText": "Stationnement gratuit sur place. Une équipe d'accueil vous attend à la porte."
+  },
+  "forms": {
+    "name": "Nom",
+    "email": "Courriel",
+    "phone": "Téléphone",
+    "message": "Message",
+    "optional": "facultatif",
+    "submit": "Envoyer",
+    "sending": "Envoi…",
+    "success": "Merci ! Votre message a bien été envoyé. Nous vous répondrons bientôt.",
+    "error": "Oups, l'envoi a échoué. Réessayez ou écrivez-nous directement par courriel.",
+    "mailtoNote": "Votre application de courriel va s'ouvrir avec votre message prêt à envoyer.",
+    "visitDate": "Quel sabbat pensez-vous venir ?",
+    "partySize": "Combien serez-vous ?",
+    "children": "Âges des enfants qui vous accompagnent",
+    "questions": "Questions ou besoins particuliers",
+    "request": "Votre requête de prière",
+    "confidential": "Garder confidentiel (pasteur seulement)",
+    "confidentialHelp": "Sinon, votre requête pourra être partagée avec l'équipe de prière, sans votre nom de famille.",
+    "subject": "Sujet",
+    "subjects": {
+      "general": "Question générale",
+      "visit": "Ma visite",
+      "studies": "Études bibliques",
+      "baptism": "Baptême",
+      "pastor": "Rencontrer le pasteur",
+      "other": "Autre"
+    },
+    "visitSubject": "Nouvelle visite prévue",
+    "prayerSubject": "Requête de prière",
+    "contactSubject": "Message depuis le site"
+  },
+  "footer": {
+    "tagline": "Une famille de foi franco-haïtienne à South Easton, MA.",
+    "services": "Horaires",
+    "contact": "Contact",
+    "explore": "Explorer",
+    "follow": "Suivez-nous",
+    "adventist": "Église adventiste mondiale",
+    "rights": "Tous droits réservés."
+  }
+}

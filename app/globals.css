@@ -1,26 +1,171 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  --color-onyx: #111111;
+  --color-onyx-deep: #060606;
+  --color-onyx-soft: #262626;
+  --color-maroon: #7b1626;
+  --color-maroon-dark: #560d19;
+  /* Text/lines on dark sections stay bright white */
+  --color-paper: #fdfcfa;
+  /* Textured grey surfaces (crumpled paper / concrete): page, alternate bands, raised cards */
+  --color-surface: #dcdad5;
+  --color-mist: #cbc9c4;
+  --color-card: #e9e7e2;
+  --color-gold: #c9a227;
+  --color-gold-soft: #e8d28a;
+  --color-ink: #141414;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --font-display: var(--font-anton), "Impact", "Arial Narrow", sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-fraunces), ui-serif, Georgia, serif;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  --animate-marquee: marquee 40s linear infinite;
+  --animate-rise: rise 1s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-fade-up: fade-up 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  @keyframes rise {
+    from {
+      transform: translateY(110%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Crumpled-paper / concrete texture, blended over each grey so the tint stays in the color tokens */
+body,
+.bg-surface,
+.bg-mist,
+.bg-card {
+  background-image: url("/images/texture-paper.jpg");
+  background-size: 512px 512px;
+  background-blend-mode: overlay;
+}
+
+/* Page transitions (see app/[locale]/template.tsx) */
+/*
+ * "backwards" only: no lingering transform afterwards, so sticky/fixed children behave.
+ * The shadow fills the strip the page uncovers as it rises, in the heroes' onyx. It is
+ * static (animating it would take the slide off the compositor and make it stutter), and
+ * once the page settles it sits above the top of the document where nothing can see it.
+ */
+.page-rise,
+.page-rise-lang {
+  box-shadow: 0 calc(var(--rise) * -1) 0 var(--color-onyx);
+}
+.page-rise {
+  --rise: 72px;
+  animation: page-rise 1.1s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+}
+.page-rise-lang {
+  /* Language switch: the visitor keeps their place, so only a gentle lift */
+  --rise: 14px;
+  animation: page-rise 0.7s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+}
+@keyframes page-rise {
+  from {
+    transform: translateY(var(--rise));
+  }
+}
+/* Don't replay the hero's entrance when only the language changed */
+.lang-switched .animate-rise,
+.lang-switched .animate-fade-up {
+  animation: none;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-surface font-sans text-ink antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    @apply bg-gold text-onyx-deep;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-gold);
+    outline-offset: 3px;
+    border-radius: 0;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+    }
+  }
+}
+
+@utility container-page {
+  width: 100%;
+  max-width: 88rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+
+  @media (width >= 40rem) {
+    padding-inline: 2rem;
+  }
+
+  @media (width >= 80rem) {
+    padding-inline: 3rem;
+  }
+}
+
+@utility headline {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  line-height: 0.98;
+  letter-spacing: -0.01em;
+}
+
+@utility eyebrow {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+@utility grain {
+  background-image: radial-gradient(rgb(255 255 255 / 0.06) 1px, transparent 1px);
+  background-size: 4px 4px;
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }

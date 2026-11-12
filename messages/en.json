@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "title": "Golgotha | Seventh-day Adventist Church",
+    "description": "A Franco-Haitian Seventh-day Adventist church in South Easton, MA. Sabbath School 9:30 AM, Worship 11:00 AM. Come as you are.",
+    "pages": {
+      "visit": {
+        "title": "Plan Your Visit",
+        "description": "Everything you need for your first Sabbath at Golgotha: times, kids, languages, parking, and more."
+      },
+      "about": {
+        "title": "About",
+        "description": "Our story, the meaning behind the name Golgotha, and the team serving our community."
+      },
+      "beliefs": {
+        "title": "Our Beliefs",
+        "description": "Explore the 28 Fundamental Beliefs of the Seventh-day Adventist Church."
+      },
+      "heritage": {
+        "title": "Our Heritage",
+        "description": "Adventist faith lived through Franco-Haitian culture: hymns, proverbs, language, and fellowship."
+      },
+      "ministries": {
+        "title": "Ministries",
+        "description": "Find your place: children, youth, choirs, health, community service, and more."
+      },
+      "events": {
+        "title": "Events",
+        "description": "The calendar of programs, celebrations, and gatherings at Golgotha."
+      },
+      "media": {
+        "title": "Sermons & Live",
+        "description": "Join our services live and catch up on recent messages."
+      },
+      "give": {
+        "title": "Give",
+        "description": "Support the mission through tithes and offerings, online or in person."
+      },
+      "prayer": {
+        "title": "Prayer Requests",
+        "description": "Share your prayer request. We will pray with you."
+      },
+      "contact": {
+        "title": "Contact",
+        "description": "Write, call, or stop by and see us in South Easton, MA."
+      }
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "visit": "Plan Your Visit",
+    "about": "About",
+    "beliefs": "Our Beliefs",
+    "heritage": "Our Heritage",
+    "ministries": "Ministries",
+    "events": "Events",
+    "media": "Sermons & Live",
+    "give": "Give",
+    "prayer": "Prayer Requests",
+    "contact": "Contact",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skip": "Skip to content",
+    "language": "Language",
+    "primary": "Main navigation",
+    "discover": "Discover",
+    "grow": "Grow",
+    "engage": "Get involved",
+    "logoSubtitle": "Seventh-day Adventist Church"
+  },
+  "cta": {
+    "planVisit": "plan your visit",
+    "watchLive": "watch live",
+    "aboutUs": "more about us",
+    "learnMore": "learn more",
+    "allMinistries": "all ministries",
+    "allEvents": "all events",
+    "allSermons": "all sermons",
+    "giveOnline": "give online",
+    "directions": "get directions",
+    "addToCalendar": "Add to calendar",
+    "share": "Share",
+    "copied": "Link copied",
+    "call": "Call",
+    "writeUs": "Email",
+    "exploreBeliefs": "explore our beliefs",
+    "exploreHeritage": "discover our heritage",
+    "backToMinistries": "Back to ministries",
+    "prayerRequest": "send a request",
+    "contactUs": "contact us"
+  },
+  "common": {
+    "toConfirm": "To be confirmed",
+    "leader": "Leader",
+    "meets": "Meets",
+    "photoSoon": "Photo coming soon",
+    "videoSoon": "Video coming soon",
+    "all": "All",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "noEvents": "No events right now. Check back soon!",
+    "speaker": "Speaker",
+    "series": "Series",
+    "passage": "Passage",
+    "location": "Location",
+    "keyVerse": "Key verse",
+    "relatedEvents": "Related events",
+    "categories": {
+      "children": "Children",
+      "youth": "Youth",
+      "adults": "Adults",
+      "service": "Service",
+      "worship": "Worship"
+    },
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "countdown": {
+    "eyebrow": "The Sabbath",
+    "startsIn": "Sabbath begins in",
+    "endsIn": "Happy Sabbath! It ends in",
+    "days": "days",
+    "hours": "hours",
+    "minutes": "minutes",
+    "seconds": "seconds",
+    "sunsetFriday": "Friday sunset: {time}",
+    "sunsetSaturday": "Sabbath ends Saturday: {time}",
+    "note": "From sunset Friday to sunset Saturday, we press pause on the world to rest in God.",
+    "verse": "\"Remember the Sabbath day, to keep it holy.\" Exodus 20:8"
+  },
+  "home": {
+    "scheduleEyebrow": "Join us this Saturday",
+    "scheduleTitle": "Every Sabbath",
+    "missionEyebrow": "Our mission",
+    "ministriesEyebrow": "Ministries",
+    "ministriesTitle": "A place for everyone",
+    "ministriesIntro": "From the littlest ones to our elders, there is a group where you can grow, serve, and make friends.",
+    "eventsEyebrow": "Calendar",
+    "eventsTitle": "Coming up",
+    "sermonEyebrow": "Latest message",
+    "sermonTitle": "The Word, every week",
+    "verseEyebrow": "Verse of the week",
+    "heritageEyebrow": "Our heritage",
+    "heritageTitle": "Faith, with a Haitian accent",
+    "heritageText": "Our songs, our language, and our hospitality carry the imprint of Franco-Haitian culture. Come experience it.",
+    "findUsEyebrow": "Find us",
+    "findUsTitle": "Come as you are",
+    "findUsText": "Free on-site parking. A welcome team will meet you at the door."
+  },
+  "forms": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "optional": "optional",
+    "submit": "Send",
+    "sending": "Sending…",
+    "success": "Thank you! Your message was sent. We'll be in touch soon.",
+    "error": "Something went wrong. Please try again or email us directly.",
+    "mailtoNote": "Your email app will open with your message ready to send.",
+    "visitDate": "Which Sabbath are you planning to come?",
+    "partySize": "How many people are coming?",
+    "children": "Ages of children coming with you",
+    "questions": "Questions or special needs",
+    "request": "Your prayer request",
+    "confidential": "Keep confidential (pastor only)",
+    "confidentialHelp": "Otherwise, your request may be shared with the prayer team, without your last name.",
+    "subject": "Subject",
+    "subjects": {
+      "general": "General question",
+      "visit": "My visit",
+      "studies": "Bible studies",
+      "baptism": "Baptism",
+      "pastor": "Meet the pastor",
+      "other": "Other"
+    },
+    "visitSubject": "New planned visit",
+    "prayerSubject": "Prayer request",
+    "contactSubject": "Message from the website"
+  },
+  "footer": {
+    "tagline": "A Franco-Haitian family of faith in South Easton, MA.",
+    "services": "Service times",
+    "contact": "Contact",
+    "explore": "Explore",
+    "follow": "Follow us",
+    "adventist": "Worldwide Adventist Church",
+    "rights": "All rights reserved."
+  }
+}
